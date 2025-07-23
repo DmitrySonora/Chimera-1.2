@@ -1,0 +1,123 @@
+{"asctime": "2025-07-23 01:05:08", "name": "actor_system.demo", "levelname": "INFO", "message": "Registered actor echo-1"}
+{"asctime": "2025-07-23 01:05:08", "name": "actor_system.demo", "levelname": "INFO", "message": "Registered actor echo-2"}
+{"asctime": "2025-07-23 01:05:08", "name": "actor_system.demo", "levelname": "INFO", "message": "Starting actor system"}
+{"asctime": "2025-07-23 01:05:08", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Starting actor Echo1"}
+{"asctime": "2025-07-23 01:05:08", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "EchoActor initialized"}
+{"asctime": "2025-07-23 01:05:08", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Actor Echo1 started"}
+{"asctime": "2025-07-23 01:05:08", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Starting actor Echo2"}
+{"asctime": "2025-07-23 01:05:08", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "EchoActor initialized"}
+{"asctime": "2025-07-23 01:05:08", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Actor Echo2 started"}
+{"asctime": "2025-07-23 01:05:08", "name": "actor_system.demo", "levelname": "INFO", "message": "Started 2 actors"}
+{"asctime": "2025-07-23 01:05:09", "name": "actor_system.demo", "levelname": "INFO", "message": "Stopping actor system"}
+{"asctime": "2025-07-23 01:05:09", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Stopping actor Echo1"}
+{"asctime": "2025-07-23 01:05:09", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Stopping actor Echo2"}
+{"asctime": "2025-07-23 01:05:09", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "EchoActor shutdown, processed 1 messages"}
+{"asctime": "2025-07-23 01:05:09", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Actor Echo2 stopped"}
+{"asctime": "2025-07-23 01:05:09", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "EchoActor shutdown, processed 6 messages"}
+{"asctime": "2025-07-23 01:05:09", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Actor Echo1 stopped"}
+{"asctime": "2025-07-23 01:05:09", "name": "actor_system.demo", "levelname": "INFO", "message": "Actor system stopped"}
+{"asctime": "2025-07-23 01:33:36", "name": "actor_system.test", "levelname": "INFO", "message": "Registered actor tiny"}
+{"asctime": "2025-07-23 01:33:36", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message 554d7e1b-9fae-4ac4-bfcf-303417acd2c8"}
+{"asctime": "2025-07-23 01:33:36", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 1/3 after 0.1s"}
+{"asctime": "2025-07-23 01:33:36", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message 554d7e1b-9fae-4ac4-bfcf-303417acd2c8"}
+{"asctime": "2025-07-23 01:33:36", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 2/3 after 0.2s"}
+{"asctime": "2025-07-23 01:33:36", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message 554d7e1b-9fae-4ac4-bfcf-303417acd2c8"}
+{"asctime": "2025-07-23 01:33:36", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 3/3 after 0.4s"}
+{"asctime": "2025-07-23 01:33:37", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message 554d7e1b-9fae-4ac4-bfcf-303417acd2c8"}
+{"asctime": "2025-07-23 01:33:37", "name": "actor_system.test", "levelname": "ERROR", "message": "Failed to send message to tiny after 3 retries"}
+{"asctime": "2025-07-23 01:33:37", "name": "actor_system.test", "levelname": "ERROR", "message": "Message 554d7e1b-9fae-4ac4-bfcf-303417acd2c8 sent to DLQ. Actor: tiny, Error: "}
+{"asctime": "2025-07-23 01:33:37", "name": "actor_system.test", "levelname": "ERROR", "message": "Error in send_message after 0.706s: "}
+{"asctime": "2025-07-23 01:33:37", "name": "actor_system.test", "levelname": "INFO", "message": "Cleared 1 messages from Dead Letter Queue"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor_system.demo", "levelname": "INFO", "message": "Registered actor echo-1"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor_system.demo", "levelname": "INFO", "message": "Registered actor echo-2"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor_system.demo", "levelname": "INFO", "message": "Starting actor system"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Starting actor Echo1"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "EchoActor initialized"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Actor Echo1 started"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Starting actor Echo2"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "EchoActor initialized"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Actor Echo2 started"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor_system.demo", "levelname": "INFO", "message": "Started DLQ cleanup task"}
+{"asctime": "2025-07-23 01:35:46", "name": "actor_system.demo", "levelname": "INFO", "message": "Started 2 actors"}
+{"asctime": "2025-07-23 01:35:47", "name": "actor_system.demo", "levelname": "INFO", "message": "Stopping actor system"}
+{"asctime": "2025-07-23 01:35:47", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Stopping actor Echo1"}
+{"asctime": "2025-07-23 01:35:47", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Stopping actor Echo2"}
+{"asctime": "2025-07-23 01:35:47", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "EchoActor shutdown, processed 1 messages"}
+{"asctime": "2025-07-23 01:35:47", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Actor Echo2 stopped"}
+{"asctime": "2025-07-23 01:35:47", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "EchoActor shutdown, processed 6 messages"}
+{"asctime": "2025-07-23 01:35:47", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Actor Echo1 stopped"}
+{"asctime": "2025-07-23 01:35:47", "name": "actor_system.demo", "levelname": "INFO", "message": "Actor system stopped"}
+{"asctime": "2025-07-23 14:49:20", "name": "actor_system.test", "levelname": "INFO", "message": "Registered actor tiny"}
+{"asctime": "2025-07-23 14:49:20", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message bbe20c66-a044-4b80-a2a5-387fdcfe3fd0"}
+{"asctime": "2025-07-23 14:49:20", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 1/3 after 0.1s"}
+{"asctime": "2025-07-23 14:49:20", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message bbe20c66-a044-4b80-a2a5-387fdcfe3fd0"}
+{"asctime": "2025-07-23 14:49:20", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 2/3 after 0.2s"}
+{"asctime": "2025-07-23 14:49:21", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message bbe20c66-a044-4b80-a2a5-387fdcfe3fd0"}
+{"asctime": "2025-07-23 14:49:21", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 3/3 after 0.4s"}
+{"asctime": "2025-07-23 14:49:21", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message bbe20c66-a044-4b80-a2a5-387fdcfe3fd0"}
+{"asctime": "2025-07-23 14:49:21", "name": "actor_system.test", "levelname": "ERROR", "message": "Failed to send message to tiny after 3 retries"}
+{"asctime": "2025-07-23 14:49:21", "name": "actor_system.test", "levelname": "ERROR", "message": "Message bbe20c66-a044-4b80-a2a5-387fdcfe3fd0 sent to DLQ. Actor: tiny, Error: "}
+{"asctime": "2025-07-23 14:49:21", "name": "actor_system.test", "levelname": "ERROR", "message": "Error in send_message after 0.707s: "}
+{"asctime": "2025-07-23 14:49:21", "name": "actor_system.test", "levelname": "INFO", "message": "Cleared 1 messages from Dead Letter Queue"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor_system.demo", "levelname": "INFO", "message": "Registered actor echo-1"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor_system.demo", "levelname": "INFO", "message": "Registered actor echo-2"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor_system.demo", "levelname": "INFO", "message": "Starting actor system"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Starting actor Echo1"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "EchoActor initialized"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Actor Echo1 started"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Starting actor Echo2"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "EchoActor initialized"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Actor Echo2 started"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor_system.demo", "levelname": "INFO", "message": "Started DLQ cleanup task"}
+{"asctime": "2025-07-23 14:55:52", "name": "actor_system.demo", "levelname": "INFO", "message": "Started 2 actors"}
+{"asctime": "2025-07-23 14:55:53", "name": "actor_system.demo", "levelname": "INFO", "message": "Stopping actor system"}
+{"asctime": "2025-07-23 14:55:53", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Stopping actor Echo1"}
+{"asctime": "2025-07-23 14:55:53", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Stopping actor Echo2"}
+{"asctime": "2025-07-23 14:55:53", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "EchoActor shutdown, processed 1 messages"}
+{"asctime": "2025-07-23 14:55:53", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Actor Echo2 stopped"}
+{"asctime": "2025-07-23 14:55:53", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "EchoActor shutdown, processed 6 messages"}
+{"asctime": "2025-07-23 14:55:53", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Actor Echo1 stopped"}
+{"asctime": "2025-07-23 14:55:53", "name": "actor_system.demo", "levelname": "INFO", "message": "Actor system stopped"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor_system.demo", "levelname": "INFO", "message": "Registered actor echo-1"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor_system.demo", "levelname": "INFO", "message": "Registered actor echo-2"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor_system.demo", "levelname": "INFO", "message": "Starting actor system"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Starting actor Echo1"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "EchoActor initialized"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Actor Echo1 started"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Starting actor Echo2"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "EchoActor initialized"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Actor Echo2 started"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor_system.demo", "levelname": "INFO", "message": "Started DLQ cleanup task"}
+{"asctime": "2025-07-23 15:23:41", "name": "actor_system.demo", "levelname": "INFO", "message": "Started 2 actors"}
+{"asctime": "2025-07-23 15:23:42", "name": "actor_system.demo", "levelname": "INFO", "message": "Stopping actor system"}
+{"asctime": "2025-07-23 15:23:42", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Stopping actor Echo1"}
+{"asctime": "2025-07-23 15:23:42", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Stopping actor Echo2"}
+{"asctime": "2025-07-23 15:23:42", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "EchoActor shutdown, processed 1 messages"}
+{"asctime": "2025-07-23 15:23:42", "name": "actor.Echo2.echo-2", "levelname": "INFO", "message": "Actor Echo2 stopped"}
+{"asctime": "2025-07-23 15:23:42", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "EchoActor shutdown, processed 6 messages"}
+{"asctime": "2025-07-23 15:23:42", "name": "actor.Echo1.echo-1", "levelname": "INFO", "message": "Actor Echo1 stopped"}
+{"asctime": "2025-07-23 15:23:42", "name": "actor_system.demo", "levelname": "INFO", "message": "Actor system stopped"}
+{"asctime": "2025-07-23 15:23:59", "name": "actor_system.test", "levelname": "INFO", "message": "Registered actor tiny"}
+{"asctime": "2025-07-23 15:23:59", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message 305c3261-d7d9-4097-b86b-531ab68f2d4f"}
+{"asctime": "2025-07-23 15:23:59", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 1/3 after 0.1s"}
+{"asctime": "2025-07-23 15:23:59", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message 305c3261-d7d9-4097-b86b-531ab68f2d4f"}
+{"asctime": "2025-07-23 15:23:59", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 2/3 after 0.2s"}
+{"asctime": "2025-07-23 15:23:59", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message 305c3261-d7d9-4097-b86b-531ab68f2d4f"}
+{"asctime": "2025-07-23 15:23:59", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 3/3 after 0.4s"}
+{"asctime": "2025-07-23 15:24:00", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message 305c3261-d7d9-4097-b86b-531ab68f2d4f"}
+{"asctime": "2025-07-23 15:24:00", "name": "actor_system.test", "levelname": "ERROR", "message": "Failed to send message to tiny after 3 retries"}
+{"asctime": "2025-07-23 15:24:00", "name": "actor_system.test", "levelname": "ERROR", "message": "Message 305c3261-d7d9-4097-b86b-531ab68f2d4f sent to DLQ. Actor: tiny, Error: "}
+{"asctime": "2025-07-23 15:24:00", "name": "actor_system.test", "levelname": "ERROR", "message": "Error in send_message after 0.707s: "}
+{"asctime": "2025-07-23 15:24:00", "name": "actor_system.test", "levelname": "INFO", "message": "Cleared 1 messages from Dead Letter Queue"}
+{"asctime": "2025-07-23 15:27:09", "name": "actor_system.test", "levelname": "INFO", "message": "Registered actor tiny"}
+{"asctime": "2025-07-23 15:27:09", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message a1cd582d-c112-4124-97e8-4b8ffee4c1a0"}
+{"asctime": "2025-07-23 15:27:09", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 1/3 after 0.1s"}
+{"asctime": "2025-07-23 15:27:09", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message a1cd582d-c112-4124-97e8-4b8ffee4c1a0"}
+{"asctime": "2025-07-23 15:27:09", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 2/3 after 0.2s"}
+{"asctime": "2025-07-23 15:27:09", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message a1cd582d-c112-4124-97e8-4b8ffee4c1a0"}
+{"asctime": "2025-07-23 15:27:09", "name": "actor_system.test", "levelname": "WARNING", "message": "Message queue full for tiny, retry 3/3 after 0.4s"}
+{"asctime": "2025-07-23 15:27:09", "name": "actor.TinyQueue.tiny", "levelname": "ERROR", "message": "Message queue full, dropping message a1cd582d-c112-4124-97e8-4b8ffee4c1a0"}
+{"asctime": "2025-07-23 15:27:09", "name": "actor_system.test", "levelname": "ERROR", "message": "Failed to send message to tiny after 3 retries"}
+{"asctime": "2025-07-23 15:27:09", "name": "actor_system.test", "levelname": "ERROR", "message": "Message a1cd582d-c112-4124-97e8-4b8ffee4c1a0 sent to DLQ. Actor: tiny, Error: "}
+{"asctime": "2025-07-23 15:27:09", "name": "actor_system.test", "levelname": "ERROR", "message": "Error in send_message after 0.707s: "}
+{"asctime": "2025-07-23 15:27:09", "name": "actor_system.test", "levelname": "INFO", "message": "Cleared 1 messages from Dead Letter Queue"}
