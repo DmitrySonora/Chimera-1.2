@@ -6,10 +6,8 @@ import bisect
 
 from actors.events.base_event import BaseEvent
 from config.logging import get_logger
-from config.settings import (
-    EVENT_STORE_MAX_MEMORY_EVENTS,
-    EVENT_STORE_STREAM_CACHE_SIZE
-)
+from config.settings import EVENT_STORE_STREAM_CACHE_SIZE
+import config.settings
 from utils.monitoring import measure_latency
 
 
@@ -116,9 +114,7 @@ class EventStore:
             self._total_appends += 1
             
             # Проверяем необходимость очистки
-            # Импортируем динамически для получения актуального значения
-            from config.settings import EVENT_STORE_MAX_MEMORY_EVENTS
-            if self._total_events > EVENT_STORE_MAX_MEMORY_EVENTS:
+            if self._total_events > config.settings.EVENT_STORE_MAX_MEMORY_EVENTS:
                 await self._cleanup_old_events()
             
             self.logger.debug(
@@ -195,7 +191,7 @@ class EventStore:
         Очистка старых событий при превышении лимита.
         Удаляет целые потоки, начиная с самых старых.
         """
-        events_to_remove = self._total_events - EVENT_STORE_MAX_MEMORY_EVENTS
+        events_to_remove = self._total_events - config.settings.EVENT_STORE_MAX_MEMORY_EVENTS
         if events_to_remove <= 0:
             return
         
@@ -249,7 +245,7 @@ class EventStore:
         self._timestamp_index.sort()
         
         # Очищаем кэш
-        self._stream_cache = LRUCache(EVENT_STORE_STREAM_CACHE_SIZE)
+        self._stream_cache = LRUCache(config.settings.EVENT_STORE_STREAM_CACHE_SIZE)
         
         self.logger.info(
             f"Event store cleanup completed. Removed {len(streams_to_remove)} streams, "
